@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 
 const SearchBar=()=>{
 
@@ -10,9 +10,13 @@ const SearchBar=()=>{
          </div>
          <div className="flex gap-4 items-center pr-0">
           <i className="ri-notification-line text-lg"></i>
+          <Link to="/login">
           <div className="h-11 w-11 bg-stone-200 rounded-full flex justify-center items-center text-center  -pr-3">
-            <i className="fa-regular fa-user text-2xl"></i></div>
+            <i className="fa-regular fa-user text-2xl"></i>
+            </div>
+            </Link>
          </div>
+   
    </header>
     )
 }

@@ -7,10 +7,10 @@ import CourseBar from "../components/courseview"
 import MidSection from "../components/midbar"
 
 
-const Dashboard=()=>{
+const Home=()=>{
 
     return(
-        <div className="flex w-full">
+        <div className="flex w-full -ml-[100px]">
             <div className="flex flex-col w-full">
              <SearchBar/>
                <CourseBar/>
@@ -22,4 +22,4 @@ const Dashboard=()=>{
     )
 }
 
-export default Dashboard
+export default Home
