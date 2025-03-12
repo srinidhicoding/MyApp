@@ -1,0 +1,369 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "App Design",
+        "description": "Learn App design from our expert trainer",
+        "progress": 20,
+        "startDate": "Dec 15, 2020",
+        "backgroundcolor": "#f5f2ff",
+        "startcolor":"#c2b5f1",
+        "picback":"white",
+        "piccolor":"#9989ea",
+        "namecolor":"#7b6ccb",
+        "barback":"#e5e0fe",
+        "barcolor":"#826ee5",
+        "nobborder":"#826ee5",
+        "nobback":"white",
+        "icon":"ri-smartphone-line",
+        "barwidth":"80px",
+        "nobmargin":"76px"
+         
+      },
+      {
+        "id": 2,
+        "title": "Web Design",
+        "description": "Learn Web design from our expert trainer",
+        "progress": 80,
+        "startDate": "Dec 15, 2020",
+        "backgroundcolor":"#fff3ec",
+        "startcolor":"#eac6b0",
+        "picback":"white",
+        "piccolor":"#f7a984",
+        "namecolor":"#f37537",
+        "barback":"#f8e7dc",
+        "barcolor":"#f37537",
+        "nobborder":"#f37537",
+        "nobback":"bg-white",
+        "icon":"fa-solid fa-calendar-days",
+        "barwidth":"175px",
+         "nobmargin":"171px"
+       
+      
+      },
+      {
+        "id": 3,
+        "title": "Dashboard",
+        "description": "Learn Typography from our expert trainer",
+        "progress": 50,
+        "startDate": "Dec 15, 2020",
+       "backgroundcolor":"#ecfbff",
+       "startcolor":"#a4dcef",
+       "picback":"white",
+        "piccolor":"#88dbf0",
+        "namecolor":"#17a8cf",
+        "barback":"#cdf3ff",
+        "barcolor":"#17a8cf",
+        "nobborder":"#17a8cf",
+        "nobback":"bg-white",
+        "icon":"fa-solid fa-table-columns",
+        "barwidth":"129px",
+       "nobmargin":"125px"
+        
+      }
+    ],
+    "categories": [
+      { "name": "UI/UX Design", 
+        "courses": 18,
+        "icons":"fa-solid fa-hexagon-nodes",
+         "bgcolor":"#f5f2ff",
+         "iconcolor":"#b0a2ef"
+
+    },
+      { "name": "Marketing", 
+         "courses": 34,
+          "icons":"fa-brands fa-searchengin",
+          "bgcolor":"#fff3ec",
+         "iconcolor":"#fba173"
+       },
+      { "name": "Development", 
+         "courses": 126 ,
+          "icons":"fa-regular fa-folder-closed",
+          "bgcolor":"#e5f4f8",
+         "iconcolor":"#4eb4cc"
+      },
+      { "name": "Business", 
+         "courses":213 ,
+          "icons":"fa-solid fa-arrow-up-right-dots",
+          "bgcolor":"#f0fdf2",
+         "iconcolor":"#74b47c"
+        }
+    ],
+    "users": [
+      {  
+        "name": "Shine Smith",
+        "role": "UI/UX Designer",
+        "courses": 18,
+        "followers": 1200,
+        "image":"/images/person.png"
+      },
+      {
+        "name": "Mikel",
+        "role": "Marketer",
+        "courses":24,
+        "followers": 900,
+          "image":"/images/person.png"
+      },
+      {
+        "name": "Tohid Golakar",
+        "role": "Android Developer",
+        "courses": 64,
+        "followers": 1590,
+          "image":"/images/person.png"
+      },
+      {
+        "name": "Md Sahib",
+        "role": "Frontend Developer",
+        "courses": 85,
+        "followers": 1590,
+          "image":" /images/person.png"
+      }
+    ],
+      "BookDetails": [
+        {
+          "id": 1,
+          "title": "Atomic Habits",
+          "author": "James Clear",
+          "genre": "Self-help",
+          "published_year": 2018,
+          "description": "A guide on how small habits can lead to remarkable results.",
+          "rating": 4.8
+        },
+        {
+          "id": 2,
+          "title": "The Alchemist",
+          "author": "Paulo Coelho",
+          "genre": "Fiction",
+          "published_year": 1988,
+          "description": "A shepherd's journey to fulfill his destiny.",
+          "rating": 4.7
+        },
+        {
+          "id": 3,
+          "title": "Sapiens",
+          "author": "Yuval Noah Harari",
+          "genre": "History",
+          "published_year": 2011,
+          "description": "Explores the history and evolution of humankind.",
+          "rating": 4.9
+        },
+        {
+          "id": 4,
+          "title": "Rich Dad Poor Dad",
+          "author": "Robert Kiyosaki",
+          "genre": "Finance",
+          "published_year": 1997,
+          "description": "Teaches financial literacy and investing.",
+          "rating": 4.6
+        },
+        {
+          "id": 5,
+          "title": "The Power of Now",
+          "author": "Eckhart Tolle",
+          "genre": "Spirituality",
+          "published_year": 1997,
+          "description": "A guide to spiritual enlightenment and mindfulness.",
+          "rating": 4.8
+        }
+      ],
+      "Community": [
+        {
+          "id": 1,
+          "name": "Readers Club",
+          "members": 1200,
+          "topics": ["Book Reviews", "Reading Challenges"]
+        },
+        {
+          "id": 2,
+          "name": "Tech Enthusiasts",
+          "members": 2500,
+          "topics": ["AI", "Web Development"]
+        },
+        {
+          "id": 3,
+          "name": "Finance Talks",
+          "members": 1800,
+          "topics": ["Investing", "Crypto"]
+        },
+        {
+          "id": 4,
+          "name": "Writers Hub",
+          "members": 900,
+          "topics": ["Poetry", "Story Writing"]
+        },
+        {
+          "id": 5,
+          "name": "Movie Buffs",
+          "members": 1400,
+          "topics": ["Latest Movies", "Film Reviews"]
+        }
+      ],
+      "Completed": [
+        {
+          "id": 1,
+          "course": "React Basics",
+          "completed_on": "2024-02-10",
+          "certificate": true
+        },
+        {
+          "id": 2,
+          "course": "Node.js Fundamentals",
+          "completed_on": "2023-12-22",
+          "certificate": true
+        },
+        {
+          "id": 3,
+          "course": "Python for Data Science",
+          "completed_on": "2024-01-05",
+          "certificate": true
+        },
+        {
+          "id": 4,
+          "course": "Digital Marketing 101",
+          "completed_on": "2023-11-15",
+          "certificate": false
+        },
+        {
+          "id": 5,
+          "course": "UX/UI Design",
+          "completed_on": "2024-02-01",
+          "certificate": true
+        }
+      ],
+      "CourseDetails": [
+        {
+          "id": 1,
+          "name": "Full Stack Development",
+          "duration": "6 months",
+          "instructor": "John Doe",
+          "rating": 4.7
+        },
+        {
+          "id": 2,
+          "name": "Data Science with Python",
+          "duration": "4 months",
+          "instructor": "Jane Smith",
+          "rating": 4.8
+        },
+        {
+          "id": 3,
+          "name": "Machine Learning",
+          "duration": "5 months",
+          "instructor": "Dr. Alan Turing",
+          "rating": 4.9
+        },
+        {
+          "id": 4,
+          "name": "Cyber Security Basics",
+          "duration": "3 months",
+          "instructor": "Edward Snowden",
+          "rating": 4.5
+        },
+        {
+          "id": 5,
+          "name": "Digital Marketing",
+          "duration": "2 months",
+          "instructor": "Sarah Connor",
+          "rating": 4.6
+        }
+      ],
+      "ProductDetails": [
+        {
+          "id": 1,
+          "name": "Laptop",
+          "brand": "Dell",
+          "price": 899.99,
+          "rating": 4.5
+        },
+        {
+          "id": 2,
+          "name": "Smartphone",
+          "brand": "Apple",
+          "price": 1099.99,
+          "rating": 4.8
+        },
+        {
+          "id": 3,
+          "name": "Wireless Earbuds",
+          "brand": "Sony",
+          "price": 199.99,
+          "rating": 4.7
+        },
+        {
+          "id": 4,
+          "name": "Smartwatch",
+          "brand": "Samsung",
+          "price": 299.99,
+          "rating": 4.6
+        },
+        {
+          "id": 5,
+          "name": "Gaming Chair",
+          "brand": "Razer",
+          "price": 399.99,
+          "rating": 4.9
+        }
+      ],
+      "ProfileDetails": [
+        {
+          "id": 1,
+          "username": "john_doe",
+          "email": "john@example.com",
+          "role": "Admin"
+        },
+        {
+          "id": 2,
+          "username": "jane_smith",
+          "email": "jane@example.com",
+          "role": "User"
+        },
+        {
+          "id": 3,
+          "username": "michael_b",
+          "email": "michael@example.com",
+          "role": "Moderator"
+        },
+        {
+          "id": 4,
+          "username": "susan_k",
+          "email": "susan@example.com",
+          "role": "User"
+        },
+        {
+          "id": 5,
+          "username": "alex_r",
+          "email": "alex@example.com",
+          "role": "User"
+        }
+      ],
+      "Settings": [
+        {
+          "id": 1,
+          "option": "Dark Mode",
+          "enabled": true
+        },
+        {
+          "id": 2,
+          "option": "Email Notifications",
+          "enabled": false
+        },
+        {
+          "id": 3,
+          "option": "Language",
+          "value": "English"
+        },
+        {
+          "id": 4,
+          "option": "Two-Factor Authentication",
+          "enabled": true
+        },
+        {
+          "id": 5,
+          "option": "Privacy Settings",
+          "value": "High"
+        }
+      ]
+    
+    
+  }
+  
